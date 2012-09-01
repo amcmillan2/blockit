@@ -1,9 +1,17 @@
 {
-    "name": "block-it",
-    "license": "MPL 2.0",
-    "author": "Tim Taubert <tim@timtaubert.de>",
-    "version": "0.1",
-    "fullName": "block.it",
-    "id": "jid1-FCwgKOzPHifHUA",
-    "description": "Just a simple website blocker"
+  "name": "block-it",
+  "license": "MPL 2.0",
+  "author": "Tim Taubert <tim@timtaubert.de>",
+  "version": "0.1",
+  "fullName": "block.it",
+  "id": "jid1-FCwgKOzPHifHUA",
+  "description": "Just a simple website blocker",
+  "preferences": [
+    {
+      "type": "string",
+      "name": "domains",
+      "value": "www.example.com|example.com",
+      "title": "List of domains (separated by '|') to be blocked"
+    }
+  ]
 }
