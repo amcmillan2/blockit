@@ -10,7 +10,7 @@
     {
       "type": "string",
       "name": "domains",
-      "value": "www.example.com|example.com",
+      "value": "www.example.com|distractingstuff.com",
       "title": "List of domains (separated by '|') to be blocked"
     }
   ]
